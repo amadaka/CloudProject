@@ -1,0 +1,1751 @@
+body {font-family: Arial;
+text-align: center;}
+h1{
+   font-family: Arial;
+   font-weight: 100;
+}
+section {
+  text-align: center;
+}
+span{
+color: #e65c00;
+}
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#wrapper {
+   min-height:100%;
+   position:relative;
+   height: auto;
+}
+.container2 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container26 {
+  position: relative;
+  text-align: center;
+  color: white;
+  line-height: 0px;
+}
+
+
+.container2 span{
+
+   color: #e65c00;
+}
+.container26 span{
+
+   color: #e65c00;
+}
+
+.container2 p{
+   font-size: small;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered h2{
+text-align: left;
+}
+
+.header {
+   background:inherit;
+   padding:70px;
+}
+.logo-img {
+    float: left;
+    width: 60px;
+    height: 50px;
+    margin: 10px 15px 15px 10px;
+  }
+  .logo{
+    width: 100%;
+    height: 150px;
+  }
+
+.tab2 {
+  width: 100%; 
+}
+
+.tab2 ul { 
+  text-align: center;
+  background-color: inherit;
+}
+
+.tab2 li {
+  list-style-type: none;
+  display: inline;
+}
+
+.tab2 li a {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Roboto";
+  line-height: 70px;
+  padding: 5px 15px;
+}
+.tab2 li a:not(.active){
+  color: #222222;
+}
+
+.tab2 li a:hover:not(.active) {
+  background-color: #ddd;
+}
+.active{
+  color: #e65c00;
+}
+.body {
+   width: 100%;  /* Height of the footer */
+   text-align: center;
+}
+.body td{
+vertical-align: top;
+}
+
+.footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   padding: 0;
+   }
+.footerim{
+   background-color: #424541;
+   height: 30px;
+   padding: 5px;
+}
+.footerim2{
+  width: 80%;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+
+.footerim2 p{
+   float: left;
+   font-family: calibri;
+   font-size: x-small;
+   color: #e65c00;
+   display: inline;
+}
+.footerim2 button{
+   float: right;
+   font-family: calibri;
+   background-color: #e65c00;
+   color: white;
+   border: none;
+   display: inline;
+}
+
+.footerim h4{
+   display: inline;
+   font-family: calibri;
+   color: white;
+   text-align: right;
+   margin-right: 10%;
+   background-color: #e65c00;
+   padding: 7px;
+}
+
+.footer2{
+   background-color: #2f362e;
+   height: 100px;
+   padding: 5px;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.icon{
+   width: 10%;
+  height: 10%;
+}
+.icon2{
+   width: 5%;
+  height: 5%;
+}
+.logo2{
+    width: 100%;
+    height: 100px;
+  }
+  .logo2565{
+    width: 100%;
+    height: 180px;
+  }
+ @media only screen and (min-width:769px){
+.team{
+   text-align: center;
+   text-decoration: none;
+}
+.team h1{
+   color:#222222;
+}
+.team span{
+   color: #e65c00;
+}
+.team table{
+   text-align: center;
+   width: 70%;
+}
+.team p{
+   font-size: small;
+}
+ .team table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    border-spacing: 10pt;
+    
+  }
+  .team td {
+    border: 1px solid #ddd;
+  }
+    .soc4{
+   width: 80%;
+  height: 80%;
+  }
+  .soc{
+  width: 50%;
+  height: 50%;
+}
+.soc1{
+  width: 40%;
+  height: 40%;
+}
+.soc2{
+  width: 40%;
+  height: 40%;
+}
+.soc3{
+  width: 40%;
+  height: 30%;
+}
+.left {
+   text-align: center;
+   text-decoration: none;
+}
+.left h1 {
+text-align: left;
+color: #222222;
+margin-left: 30%;
+}
+.left span{
+color: #e65c00;
+}
+.left table{
+  text-decoration: none;
+  text-align: center;
+  table-layout:fixed;
+}
+.left td{
+  padding: 2.5%;
+}
+.left figure a{
+  text-decoration: none;
+}
+.left a:link{
+  color:#222222; 
+}
+.left a:visited {
+  color:#222222;
+}
+
+.right {
+   text-align: left;
+   text-decoration: none;
+}
+.right h1{
+text-align: left;
+color: #222222;
+margin-right: 30%;
+}
+.right span{
+color: #e65c00;
+}
+.right input[type=text], textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-right: 20%;
+  resize: both;
+}
+.right textarea{
+   height: 200px;
+}
+.right input[type=submit] {
+  background-color: #e65c00;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+}
+@media only screen and (max-width:768px){
+    .team{
+   text-align: center;
+   text-decoration: none;
+}
+.team h1{
+   color:#222222;
+}
+.team span{
+   color: #e65c00;
+}
+.team table{
+   text-align: center;
+   width: 70%;
+}
+.team p{
+   font-size: small;
+}
+ .team table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    border-spacing: 10pt;
+    
+  }
+  .team td {
+    border: 1px solid #ddd;
+    display: table-row
+  }
+    .soc4{
+   width: 40%;
+  height: 40%;
+ 
+  }
+.soc{
+  width: 50%;
+  height: 50%;
+}
+.soc1{
+  width: 40%;
+  height: 40%;
+}
+.soc2{
+  width: 40%;
+  height: 40%;
+}
+.soc3{
+  width: 40%;
+  height: 30%;
+}
+.left {
+   text-align: center;
+   text-decoration: none;
+}
+.left h1 {
+text-align: left;
+color: #222222;
+margin-left: 20%;
+}
+.left span{
+color: #e65c00;
+}
+.left table{
+  text-decoration: none;
+  text-align: center;
+  margin-left:0%; 
+  margin-right:auto;
+}
+.left td{
+  padding: 2.5%;
+}
+.left figure a{
+  text-decoration: none;
+}
+.left table td{
+    display:table-cell;
+}
+.left a:link{
+  color:#222222; 
+}
+.left a:visited {
+  color:#222222;
+}
+
+.right {
+   text-align: left;
+   text-decoration: none;
+   margin-left: 20%;
+}
+.right h1{
+text-align: left;
+color: #222222;
+margin-left: 20%;
+}
+.right span{
+color: #e65c00;
+}
+.right input[type=text], textarea {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 20%;
+  resize: both;
+}
+.right label{
+    margin-left: 20%;
+}
+.right textarea{
+   height: 200px;
+}
+.right input[type=submit] {
+  background-color: #e65c00;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 20%;
+}
+}
+
+
+
+.container3 {
+  position: relative;
+  color: white;
+  line-height: 0px;
+}
+.container3 span{
+
+   color: #e65c00;
+}
+
+.container3 p{
+   font-size: small;
+   font-family: Montserrat;
+}
+.container3 h1{
+   text-align: left;
+}
+.container3 input[type=submit] {
+  background-color: #e65c00;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+}
+.footer input[type=text]{
+  padding: 10px;
+  resize: both;
+  margin: 5px 10px 5px 0;
+}
+
+
+@media only screen and (min-width:769px){
+.mission{
+   text-align: center;
+   text-decoration: none;
+}
+.mission h2{
+   color:#222222;
+   text-align: left;
+}
+.mission span{
+   color: #e65c00;
+}
+.mission table{
+   text-align: center;
+   width: 80%;
+}
+.mission p{
+   font-size: small;
+   text-align: left;
+   font-weight: bold;
+}
+ .mission table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  .mission2{
+   text-align: center;
+   text-decoration: none;
+}
+.mission2 table{
+   text-align: center;
+   width: 72%;
+}
+  .mission2 table.boxing{
+   border: 1px solid #ddd;
+   width: 100%;
+  }
+  .mission2 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  .mission2 p{
+   font-size: small;
+   text-align: left;
+}
+  .mission td{
+   width: 40%;
+  }
+  .mission2 td{
+   width: 26%;
+  }
+  .mission u{
+   text-decoration-color: #e65c00;
+  }
+.mission2 u{
+   text-decoration-color: #e65c00;
+  }
+.mission2 h2{
+   text-align: left;
+  }
+}
+/*tab and modile*/
+@media only screen and (max-width:768px){
+.mission{
+   text-align: center;
+   text-decoration: none;
+}
+.mission h2{
+   color:#222222;
+   text-align: left;
+}
+.mission span{
+   color: #e65c00;
+}
+.mission table{
+   text-align: center;
+   width: 80%;
+}
+.mission p{
+   font-size: small;
+   text-align: left;
+   font-weight: bold;
+}
+ .mission table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  .mission2{
+   text-align: center;
+   text-decoration: none;
+}
+.mission2 table{
+   text-align: center;
+   width: 72%;
+}
+  .mission2 table.boxing{
+   border: 1px solid #ddd;
+   width: 100%;
+  }
+  .mission2 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  .mission2 p{
+   font-size: small;
+   text-align: left;
+}
+  .mission td{
+      display: table-row;
+   width: 80%;
+  }
+  .mission2 td{
+   display: table-row;
+   width: 80%;
+  }
+  .mission u{
+   text-decoration-color: #e65c00;
+  }
+.mission2 u{
+   text-decoration-color: #e65c00;
+  }
+.mission2 h2{
+   text-align: left;
+  }
+}
+.modal-content input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* Set a style for all buttons */
+ .modal-content button {
+  background-color: #e65c00;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  position: absolute;
+  right: 25px;
+  bottom: 0;
+}
+.modal-content hr{
+   padding: 0;
+}
+
+.modal-content button:hover {
+  opacity: 0.8;
+}
+
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 25%;
+  top: 0;
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+  text-align: left;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+.logo5{
+position: absolute;
+left: 0;
+top:0;
+width: 40%;
+   height:330px;
+}
+.text-block h1{
+line-height: 10px;
+}
+@media only screen and (min-width:769px){
+    .mission602 h3{
+  line-height: 0;
+  text-align: left;
+}
+    .mission601 textarea{
+   height: 200px;
+   width: 100%;
+   border: 1px solid #222222;
+}
+    .mission601 h3{
+  line-height: 0;
+  text-align: left;
+}
+    .mission601 h3 span{
+  color: #222222;
+}
+    .mission601 table{
+   text-align: center;
+   width: 60%;
+}
+    .mission601{
+   text-align: center;
+   text-decoration: none;
+   margin-left: 20%;
+   
+}
+    .centered2565 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered2565 h2{
+text-align: left;
+line-height: normal;
+}
+    .bottom-right {
+  position: absolute;
+  bottom: 20px;
+  right: 250px;
+}
+    .centered2 {
+ position: absolute;
+  bottom: 18px;
+  left: 200px;
+  line-height: normal;
+}
+    .logo4{
+   width: 100%;
+   height:330px;
+   position: relative;
+}
+.text-block {
+  position: absolute;
+top: 60px;
+  left: 180px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  font-size: x-large;
+  margin-right: 40%;
+}
+.objective{
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+box-shadow: 1px 2px 4px rgba(0, 0, 0, 2 );
+text-align: center;
+}
+.objective p{
+   margin:0;
+}
+}
+/*modile and tab*/
+@media only screen and (max-width:768px){
+  .objective{
+    margin: auto;
+  width: 80%;
+  padding: 10px;
+box-shadow: 1px 2px 4px rgba(0, 0, 0, 2 );
+text-align: center;
+}
+.objective p{
+   margin:0;
+}  
+}
+.home{
+   display: table;
+}
+.home td{
+   width: 50%;
+}
+.home table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  .oran{
+   background-color: #e65c00;
+   text-align: center;
+   width: 100%;
+  }
+  .image{
+   padding: 10%;
+   width:50%;
+   height: 50%;
+  }
+  .oran table{
+   text-align: center;
+   width: 100%;
+}
+.oran table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+  .left-half {
+  background-color: #e65c00;;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+  color: white;
+}
+  .left-half table{
+   text-align: center;
+   width: 80%;
+   border-collapse: collapse;
+}
+.left-half figcaption{
+  font-size: small;
+}
+.left-half td{
+  border: 1px solid #ddd
+}
+.left-half tr:first-child td {
+  border-top: 0;
+}
+.left-half tr td:first-child {
+  border-left: 0;
+}
+.left-half tr:last-child td {
+  border-bottom: 0;
+}
+.left-half tr td:last-child {
+  border-right: 0;
+}
+
+.left-half table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+
+.right-half {
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+.logo56{
+  width: 100%;
+  height:456px;
+}
+.logo1995{
+  width: 100%;
+  height:100%;
+}
+
+
+.t23ext-blo {
+  position: relative;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+}
+.t23ext-blo h1{
+  font-weight: 100;
+}
+.m23odal-cont {
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  text-align: left;
+  padding: 10px;
+}
+.m23odal-cont input[type=text] {
+  width: 45%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: left;
+}
+.m23odal-cont select {
+  width: 45%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: left;
+}
+.t23ext-blo input[type=password]{
+    width: 45%;
+  padding: 10px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: left;
+}
+.m23odal-cont input[type=submit] {
+  background-color: #e65c00;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media only screen and (min-width:769px){
+.mission9{
+   text-align: center;
+   text-decoration: none;
+   background-color: #dfdedf;
+
+}
+.mission9 table{
+   text-align: center;
+   width: 80%;
+}
+.mission9 table.center2 {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  .mission9 td{
+    width: 40%;
+  }
+    .soc103{
+    width: 50%;
+    height:65%;
+  }
+  .soc104{
+    width: 46%;
+    height:31%;
+  }
+}
+@media only screen and (max-width:768px){
+    .mission602 h3{
+  font-size: 1em;
+  text-align: left;
+}
+    .mission601 textarea{
+   height: 200px;
+   width: 80%;
+   border: 1px solid #222222;
+}
+    .mission601 h3{
+        font-size: 1em;
+  text-align: left;
+}
+    .mission601 h3 span{
+        font-size: 1em;
+  color: #222222;
+}
+    .mission601 table{
+   text-align: center;
+   width: 100%;
+}
+    .mission601{
+   text-align: center;
+   text-decoration: none;
+   margin-left: 0%;
+   
+}
+    .centered2565 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered2565 h2{
+text-align: left;
+line-height: normal;
+font-size: 1.17em;
+}
+    .bottom-right {
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}
+    .centered2 {
+ position: absolute;
+  bottom: 30px;
+  left: 20px;
+  line-height: normal;
+}
+  
+    .logo4{
+   width: 100%;
+   height:350px;
+   position: relative;
+}
+  .text-block {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  font-size: x-large;
+  margin-right: 20%;
+}
+   .mission9{
+   text-align: center;
+   text-decoration: none;
+   background-color: #dfdedf;
+
+}
+.mission9 table{
+   text-align: center;
+   width: 80%;
+}
+.mission9 table.center2 {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  .mission9 td{
+    display: table-row;
+  }
+    .soc103{
+    width: 80%;
+    height:65%;
+  }
+  .soc104{
+    width: 80%;
+    height:31%;
+  }
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background-color: #e65c00;
+  text-align: center;
+  padding: 5px;
+}
+.bottom-left h1{
+  line-height: 0px;
+}
+.bottom-left p{
+  line-height: 0px;
+}
+.soc201{
+    width: 100%;
+    height: 100%;
+  }
+@media only screen and (min-width:769px){
+.mission10 {
+   text-align: center;
+   text-decoration: none;
+}
+.mission10 table{
+   text-align: center;
+   width: 72%;
+}
+  .mission10 table.boxing{
+   border: 1px solid #ddd;
+   width: 100%;
+  }
+  .mission10 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  .mission10 td{
+   width: 26%;
+  }
+}
+@media only screen and (max-width:768px){
+.mission10 {
+   text-align: center;
+   text-decoration: none;
+}
+.mission10 table{
+   text-align: center;
+   width: 72%;
+}
+  .mission10 table.boxing{
+   border: 1px solid #ddd;
+   width: 100%;
+  }
+  .mission10 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  .mission10 td{
+   display: table-row;
+  }
+}
+}
+
+  .mission109{
+   text-align: center;
+   text-decoration: none;
+}
+.mission109 table{
+   text-align: center;
+   width: 72%;
+}
+
+  .mission109 table.boxing256{
+   width: 100%;
+  }
+
+    .mission109 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  .mission109 td{
+   width: 26%;
+   padding: 10pt;
+  }
+  .soc501{
+    width: 8%;
+    height:8%;
+    line-height: 0;
+  }
+  .soc502{
+    width: 5%;
+    height:5%;
+    line-height: 0;
+  }
+
+.holder{
+  text-align: center;
+  padding-right: 10%;
+  padding-left:10%;
+}
+.w3{
+  background-color: #e65c00;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+.w4{
+  background-color: #e65c00;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+
+.l{
+  text-align: left;
+}
+
+ .mission601 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  .mission601 input[type=text],.mission601 input[type=Date],.mission601 input[type=Time],.mission601 input[type=File] {
+  width: 50%;
+  padding: 10px 15px;
+  border: 1px solid #222222;
+}
+.lecting{
+	width: 50%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+}
+
+.mission601 td{
+  padding: 5px;
+
+}
+
+.mission601 input[type=submit] {
+  background-color: #e65c00;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.soc1002{
+  width: 70%;
+  height: 120%;
+
+}
+.mission602 h3 span{
+  color: #222222;
+}
+ .mission602 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+ 
+
+.mission602 td{
+  padding: 5px;
+
+}
+.mission602 textarea{
+   height: 200px;
+   width: 100%;
+   border: 1px solid #222222;
+}
+.mission602 table{
+   text-align: center;
+   width: 40%;
+}
+#wrapper2{
+  width: 100%;
+}
+#wrapper2 hr{
+  border: 1px solid #222222;
+}
+.container324{
+  width: 80%;
+  margin-left:auto; 
+  margin-right:auto;
+}
+.container324 h1{
+  text-align: left;
+  font-weight: 100;
+}
+.container324 p{
+  text-align: left;
+}
+@media only screen and (min-width:769px){
+.second{
+  width: 100%;
+  margin-left:auto; 
+  margin-right:auto;
+}
+.second table{
+  width: 100%;
+  table-layout:fixed;
+}
+.second td{
+  width: 50%;
+}
+#third {
+  background-color: #e65c00;
+  color: white;
+}
+
+  #third table{
+   text-align: center;
+   width: 80%;
+   border-collapse: collapse;
+}
+#third  figcaption{
+  font-size: small;
+}
+#third  td{
+  border: 1px solid #ddd;
+}
+#third  tr:first-child td {
+  border-top: 0;
+}
+#third  tr td:first-child {
+  border-left: 0;
+}
+#third  tr:last-child td {
+  border-bottom: 0;
+}
+#third  tr td:last-child {
+  border-right: 0;
+}
+
+#third  table#center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+#nine{
+  background-image: url("../proyecto3/homepage-one-banner.jpg");
+  padding: 1%;
+
+}
+}
+/*moblie and table */
+@media only screen and (max-width:768px){
+    .second{
+  width: 100%;
+  margin-left:0%; 
+  margin-right:auto;
+}
+.second table{
+  width: 100%;
+  table-layout:fixed;
+}
+.second td{
+  display: table-row;
+}
+#third {
+  background-color: #e65c00;
+  color: white;
+}
+
+  #third table{
+   text-align: center;
+   width: 80%;
+   border-collapse: collapse;
+}
+#third  figcaption{
+  font-size: small;
+}
+#third  tr:first-child td {
+  border-top: 0;
+}
+#third  tr td:first-child {
+  border-left: 0;
+}
+#third  tr:last-child td {
+  border-bottom: 0;
+}
+#third  tr td:last-child {
+  border-right: 0;
+}
+
+#third  table#center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  #third  td{
+  border: 1px solid #ddd;
+  display: table-cell;
+}
+
+#nine{
+  background-image: url("../proyecto3/homepage-one-banner.jpg");
+  padding: 1%;
+}
+  
+}
+
+
+@media only screen and (min-width:769px){
+      .mission600{
+   text-align: center;
+   text-decoration: none;
+   width: 80%;
+   margin-left: 20%;
+}
+.mission600 table{
+   text-align: center;
+   width: 60%;
+}
+ .mission600 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    border: 1px solid #222222;
+    border-collapse: collapse;
+
+  }
+  .mission600 th,.mission600 td{
+  border: 1px solid #222222;
+}
+.sidenav {
+  width: 20%;
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #222222;
+  display: block;
+}
+.active2{
+ background-color: #00ff00;
+}
+.sidenav a:not(.active2){
+  color: #222222;
+}
+
+.sidenav a:hover:not(.active2) {
+  background-color: #ddd;
+}
+}
+@media only screen and (max-width:768px){
+          .mission600{
+              margin-left:10%;
+   text-align: center;
+   text-decoration: none;
+   width: 80%;
+}
+.mission600 table{
+   text-align: center;
+   width: 60%;
+}
+ .mission600 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    border: 1px solid #222222;
+    border-collapse: collapse;
+
+  }
+  .mission600 th,.mission600 td{
+  border: 1px solid #222222;
+}
+.sidenav {
+  width: 100%;
+  background: #eee;/* edit here */
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #222222;
+  display: block;
+}
+.active2{
+ background-color: #00ff00;
+}
+.sidenav a:not(.active2){
+  color: #222222;
+}
+
+.sidenav a:hover:not(.active2) {
+  background-color: #ddd;
+}
+}
+.Success{
+  color: #00ff00;
+}
+.error{
+  color: #ff0000;
+  line-height: 40%;
+}
+@media only screen and (min-width:769px){
+      .mission60001{
+   text-align: center;
+   text-decoration: none;
+   width: 80%;
+   margin-left: 20%;
+}
+.mission60001 table{
+   text-align: center;
+   width: 60%;
+}
+ .mission60001 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    border: 1px solid #222222;
+    border-collapse: collapse;
+
+  }
+  .mission60001 th,.mission60001 td{
+  border: 1px solid #222222;
+}
+}
+@media only screen and (max-width:768px){
+  .mission60001 table, .mission60001 thead, .mission60001 tbody, .mission60001 th, .mission60001 td, .mission60001 tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .mission60001 th{
+    display: none;
+  }
+.mission60001  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+ .mission60001 tr { border: 1px solid #ccc; }
+  
+.mission60001  td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+  }
+  
+ .mission60001 td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+  
+  /*
+  Label the data
+  */
+  .mission60001 td:nth-of-type(1):before { content: "Contact id"; }
+  .mission60001 td:nth-of-type(2):before { content: "Name"; }
+   .mission60001 td:nth-of-type(3):before { content: "Email"; }
+   .mission60001 td:nth-of-type(4):before { content: "Subject"; }
+   .mission60001 td:nth-of-type(5):before { content: "Message"; }
+   .mission60001 td:nth-of-type(6):before { content: " Action"; }
+ 
+  }
+  @media only screen and (min-width:769px){
+      .mission60002{
+   text-align: center;
+   text-decoration: none;
+   width: 80%;
+   margin-left: 20%;
+}
+.mission60002 table{
+   text-align: center;
+   width: 60%;
+}
+ .mission60002 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    border: 1px solid #222222;
+    border-collapse: collapse;
+
+  }
+  .mission60002 th,.mission60002 td{
+  border: 1px solid #222222;
+}
+}
+@media only screen and (max-width:768px){
+  .mission60002 table, .mission60002 thead, .mission60002 tbody, .mission60002 th, .mission60002 td, .mission60002 tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .mission60002 th{
+    display: none;
+  }
+.mission60002  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+ .mission60002 tr { border: 1px solid #ccc; }
+  
+.mission60002  td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+  }
+  
+ .mission60002 td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+
+  
+  /*
+  Label the data
+  */
+  .mission60002 td:nth-of-type(1):before { content: "Participant ID"; }
+  .mission60002 td:nth-of-type(2):before { content: "Participant Name"; }
+   .mission60002 td:nth-of-type(3):before { content: "Nation"; }
+   .mission60002 td:nth-of-type(4):before { content: "Phone No"; }
+   .mission60002 td:nth-of-type(5):before { content: "Email"; }
+   .mission60002 td:nth-of-type(6):before { content: " Action"; }
+ 
+  }
+/*
+  organiser
+  */
+  @media only screen and (min-width:769px){
+      .mission60003{
+   text-align: center;
+   text-decoration: none;
+   width: 80%;
+   margin-left: 20%;
+}
+.mission60003 table{
+   text-align: center;
+   width: 60%;
+}
+ .mission60003 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    border: 1px solid #222222;
+    border-collapse: collapse;
+
+  }
+  .mission60003 th,.mission60003 td{
+  border: 1px solid #222222;
+}
+}
+@media only screen and (max-width:768px){
+  .mission60003 table, .mission60003 thead, .mission60003 tbody, .mission60003 th, .mission60003 td, .mission60003 tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .mission60003 th{
+    display: none;
+  }
+.mission60003  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+ .mission60003 tr { border: 1px solid #ccc; }
+  
+.mission60003  td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+  }
+  
+ .mission60003 td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+  
+  
+  /*
+  Label the data
+  */
+  .mission60003 td:nth-of-type(1):before { content: "Event Number"; }
+  .mission60003 td:nth-of-type(2):before { content: "Event Name"; }
+   .mission60003 td:nth-of-type(3):before { content: "Date"; }
+   .mission60003 td:nth-of-type(4):before { content: "Action-1"; }
+   .mission60003 td:nth-of-type(5):before { content: "Action-2"; }
+   .mission60003 td:nth-of-type(6):before { content: "Action-3"; }
+ 
+  }
+/*
+  Participant
+  */
+  @media only screen and (min-width:769px){
+      .mission60004{
+   text-align: center;
+   text-decoration: none;
+   width: 80%;
+   margin-left: 20%;
+}
+.mission60004 table{
+   text-align: center;
+   width: 60%;
+}
+ .mission60004 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    border: 1px solid #222222;
+    border-collapse: collapse;
+
+  }
+  .mission60004 th,.mission60004 td{
+  border: 1px solid #222222;
+}
+}
+@media only screen and (max-width:768px){
+  .mission60004 table, .mission60004 thead, .mission60004 tbody, .mission60004 th, .mission60004 td, .mission60004 tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .mission60004 th{
+    display: none;
+  }
+.mission60004  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+ .mission60004 tr { border: 1px solid #ccc; }
+  
+.mission60004  td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+  }
+  
+ .mission60004 td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+  
+  
+  /*
+  Label the data
+  */
+  .mission60004 td:nth-of-type(1):before { content: "Event Number"; }
+  .mission60004 td:nth-of-type(2):before { content: "Event Name"; }
+   .mission60004 td:nth-of-type(3):before { content: "Date"; }
+   .mission60004 td:nth-of-type(4):before { content: "Time"; }
+   .mission60004 td:nth-of-type(5):before { content: "Action"; } 
+  }
+
+  /*
+  attending
+  */
+  @media only screen and (min-width:769px){
+      .mission60005{
+   text-align: center;
+   text-decoration: none;
+   width: 80%;
+   margin-left: 20%;
+}
+.mission60005 table{
+   text-align: center;
+   width: 60%;
+}
+ .mission60005 table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    border: 1px solid #222222;
+    border-collapse: collapse;
+
+  }
+  .mission60005 th,.mission60005 td{
+  border: 1px solid #222222;
+}
+}
+@media only screen and (max-width:768px){
+  .mission60005 table, .mission60005 thead, .mission60005 tbody, .mission60005 th, .mission60005 td, .mission60005 tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  .mission60005 th{
+    display: none;
+  }
+.mission60005  thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+ .mission60005 tr { border: 1px solid #ccc; }
+  
+.mission60005  td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+  }
+  
+ .mission60005 td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+  
+  
+  /*
+  Label the data
+  */
+  .mission60005 td:nth-of-type(1):before { content: "Event Number"; }
+  .mission60005 td:nth-of-type(2):before { content: "Event Name"; }
+   .mission60005 td:nth-of-type(3):before { content: "Date"; }
+   .mission60005 td:nth-of-type(4):before { content: "Time"; }
+   .mission60005 td:nth-of-type(5):before { content: "Action"; } 
+  }
